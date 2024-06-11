@@ -294,6 +294,9 @@
   .details-container {
     flex-direction: column;
   }
+  .details-container .words {
+    padding-bottom: 50px;
+  }
   .details-container img {
     width: 320px !important;
     height: 229px !important;

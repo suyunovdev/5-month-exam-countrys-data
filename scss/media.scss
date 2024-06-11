@@ -314,6 +314,10 @@ main {
 @media (max-width:415px){
   .details-container {
     flex-direction: column;
+    .words{
+      padding-bottom: 50px;
+
+    }
     img {
       width: 320px !important;
       height: 229px !important;
