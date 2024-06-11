@@ -258,4 +258,50 @@
   .btn a {
     color: var(--secondary-color);
   }
+}
+@media (max-width: 415px) {
+  .input {
+    flex-wrap: wrap;
+  }
+  select {
+    margin-top: 10px;
+  }
+  .pages {
+    font-weight: 800;
+    color: var(--secondary-color);
+  }
+  .pages h3 {
+    font-size: 14px;
+  }
+  .darkmode {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    color: var(--secondary-color);
+  }
+  .darkmode p {
+    font-size: 14px;
+  }
+  .darkmode #icon {
+    cursor: pointer;
+  }
+  .darkmode #icon img {
+    color: var(--tertiary-color);
+  }
+}
+@media (max-width: 415px) {
+  .details-container {
+    flex-direction: column;
+  }
+  .details-container img {
+    width: 320px !important;
+    height: 229px !important;
+    margin-top: 30px;
+  }
+  .details-container .words1 {
+    flex-direction: column;
+    padding-top: 30px;
+    text-align: left;
+  }
 }/*# sourceMappingURL=media.css.map */
